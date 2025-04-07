@@ -1,11 +1,11 @@
 # Setting Up the Project 
 
 ## Software: 
-(***)
+
 This tutorial assumes that that you already have Ardunio IDE installed on your device.  If you do not please go to this [link](http://www.arduino.cc/en/Main/Software) and install or contact your TA or Professor. 
 
 ## Setting up the Enviroment 
-(***)
+
 
 ### Getting Board Manager 
 Open Ardunio IDE and navigate to **File** in the top left corner.  Then select Preference 
@@ -25,7 +25,7 @@ We will be adding a URL to the new **Additional Boards Manager URLs** option.
 Once done click **OK** to save the new preference settings.
 
 ### Installing Board Manager 
-(---)
+
 The next step is to actually install the Board Support Package. Go to the **Tools** → **Board** → **Board Manager** submenu. A dialog should come up with various BSPs. Search for **esp32**.
 
 ![IDE Board](/assets/images/IDE_Board.png)
@@ -33,7 +33,7 @@ The next step is to actually install the Board Support Package. Go to the **Tool
 Click the **Install** button and wait for it to finish. Once it is finished, you can close the dialog.
 
 ### Selecting Board  
-(---)
+
 In the **Tools** → **Board** submenu you should see **ESP32 Arduino** and in that dropdown it should contain the ESP32 boards along with all the latest ESP32-S2/S3 boards.
 
 Look for the board called **Adafruit Feather ESP32-S2 Reverse TFT**.
@@ -41,7 +41,7 @@ Look for the board called **Adafruit Feather ESP32-S2 Reverse TFT**.
 ![IDE Board Select](/assets/images/IDE_Board_Select.png)
 
 ### Launch ESP32 ROM Bootloader 
-(---)
+
 Look for the Reset button and a second DFU / BOOT0 button
 
 ![Board Buttons](/assets/images/Board_Bootloader.png)
@@ -57,7 +57,7 @@ In the **Port** menu, select the serial port that is labelled **ESP32 Family Dev
     > (Note this is the Port menu, not the Board menu. In the Board menu choose the exact board you are using.)
 
 ## Loading Blink Sketch Code  
-(---)
+
 Download the code in Gitlab found in **TestCode/Blink/Blink.ino"
 
 Once downloaded double click and press the checkmark in the top left corner to build the code. Once the code has built the click the arrow to upload the code.
