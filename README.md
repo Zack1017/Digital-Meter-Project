@@ -5,7 +5,7 @@ EE120 Final Project
 
 ## Software: 
 
-This tutorial assumes that that you already have Ardunio IDE installed on your device.  If you do not please go to this [link] (http://www.arduino.cc/en/Main/Software) and install or contact your TA or Professor. 
+This tutorial assumes that that you already have Ardunio IDE installed on your device.  If you do not please go to this [link](http://www.arduino.cc/en/Main/Software) and install or contact your TA or Professor. 
 
 ## Setting up the Enviroment 
 
