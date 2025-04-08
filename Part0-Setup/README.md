@@ -18,7 +18,7 @@ A dialog will pop up just like the one shown below.
 
 We will be adding a URL to the new **Additional Boards Manager URLs** option. 
 
-    > https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
+     https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
 
 ![IDE Preference URL](/assets/images/IDE_Preference_URL.png)
 
@@ -54,7 +54,7 @@ It should appear under **Tools** -> **Port** as **ESP32 Family Device**.
 
 In the **Port** menu, select the serial port that is labelled **ESP32 Family Device**
 
-    > (Note this is the Port menu, not the Board menu. In the Board menu choose the exact board you are using.)
+     (Note this is the Port menu, not the Board menu. In the Board menu choose the exact board you are using.)
 
 ## Loading Blink Sketch Code  
 
@@ -62,7 +62,7 @@ Download the code in Gitlab found in **TestCode/Blink/Blink.ino"
 
 Once downloaded double click and press the checkmark in the top left corner to build the code. Once the code has built the click the arrow to upload the code.
 
-    > Note that we use LED_BUILTIN not pin 13 for the LED pin. That's because we don't always use pin 13 for the LED on boards. For example, on the Metro ESP32-S2 the LED is on pin 42!
+     Note that we use LED_BUILTIN not pin 13 for the LED pin. That's because we don't always use pin 13 for the LED on boards. For example, on the Metro ESP32-S2 the LED is on pin 42!
 
 After uploading, you may see something warning you that we could not get out of reset. This is normal! **Press the RESET button on your board to launch the sketch**
 
