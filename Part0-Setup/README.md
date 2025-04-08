@@ -36,7 +36,7 @@ Click the **Install** button and wait for it to finish. Once it is finished, you
 
 In the **Tools** → **Board** submenu you should see **ESP32 Arduino** and in that dropdown it should contain the ESP32 boards along with all the latest ESP32-S2/S3 boards.
 
-Look for the board called **Adafruit Feather ESP32-S2 Reverse TFT**.
+Look for the board called **Adafruit Feather ESP32-S3 Reverse TFT**.
 
 ![IDE Board Select](/assets/images/IDE_Board_Select.png)
 
@@ -62,7 +62,7 @@ Download the code in Gitlab found in **TestCode/Blink/Blink.ino"
 
 Once downloaded double click and press the checkmark in the top left corner to build the code. Once the code has built the click the arrow to upload the code.
 
-     Note that we use LED_BUILTIN not pin 13 for the LED pin. That's because we don't always use pin 13 for the LED on boards. For example, on the Metro ESP32-S2 the LED is on pin 42!
+     Note that we use LED_BUILTIN not pin 13 for the LED pin. That's because we don't always use pin 13 for the LED on boards. For example, on the Metro ESP32-S3 the LED is on pin 42!
 
 After uploading, you may see something warning you that we could not get out of reset. This is normal! **Press the RESET button on your board to launch the sketch**
 
