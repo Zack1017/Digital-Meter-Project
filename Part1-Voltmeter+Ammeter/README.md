@@ -1,35 +1,54 @@
 # Part 1 - Voltmeter + Ohmmeter
 
-## Voltmeter (Part A)
-This project involves creating a digital voltmeter using the Reverse Feather TFT S3 microcontroller. The voltmeter will utilize a voltage divider circuit to safely scale down input voltages for ADC (Analog-to-Digital Converter) measurement. The S3’s ADC will read the divided voltage and convert it into a digital value, which will be processed and displayed on the onboard TFT screen in real-time. This setup allows for accurate voltage monitoring in a compact, user-friendly format, ideal for educational and prototyping purposes.
-
-
 ## Background 
 
-### Measuring the Electrical Voltage
+### Measuring Voltage
 
 Various methods exist for measuring the voltage, such as using the hall effect, the simplest one is the voltage divider.
 
 The voltage divider is a circuit that puts a fraction of the voltage between two resistors.
 
-![Voltage Divider](/assets/images/voltage_div.png)
+![Voltage Divider Voltage](/assets/images/voltage_div.png)
 
 ![Voltage Divider Equation](/assets/images/voltage_eq.png)
 
 Now if we know the R1 and R2 resistance and the Vout values, we can easily calculate the voltage using the above formula.
 
 
+### Measuring Resistance 
+
+The same voltage divider technique can be used to measure the resistance. The only difference compared to measuring the voltage is that here, we know the input voltage, the resistance of R1 and the output voltage. R2 is the unknown variable.
+
+![Voltage Divider Resistnace](/assets/images/voltage_div_2.png)
+
 ## Pre-Lab
 
-## TinkerCAD
+### TinkerCAD
 
-Using TinkerCad we will use the voltage divider technique for the voltmeter. We need the Arduino’s ADC unit to read the voltage. 
+#### Part A 
+Using TinkerCad we will use the voltage divider technique for the voltmeter. We need the Arduino’s ADC unit to read the voltage. There is already a template in the Class Folder labled "DMM 2.2 -Voltage and Resistance Measurements".
 
-To keep it simple we will use a 10k and 4.7k resistor(Note in simulation these behave theoeticaly) for the voltage division circuit.
+To keep it simple we will use a 10k and 4.7k resistor(Note in simulation these behave idealy) for the voltage division circuit.
 
 Connect the wires according to the following diagram.
 
 ![Voltmeter Circuit](/assets/images/P1A_circuit.png)
+
+Connect a voltage supply to the input.  Write the code to print to the screen using this Helper.  
+
+Test the following Voltages:
+
+- 1 V
+
+- 5 V
+
+- 10 V
+
+-15 V
+
+-20 V
+
+
 
 ### Circuit 
 Here we have used 10 and 4.7 kilo-ohm resistors for the voltage division circuit. Connect the wires according to the following diagram.
@@ -49,6 +68,8 @@ Here, using the formula for voltage division rule and reading voltage by the ADC
 
 [Image Equations ]
 
+## Voltmeter (Part A)
+This project involves creating a digital voltmeter using the Reverse Feather TFT S3 microcontroller. The voltmeter will utilize a voltage divider circuit to safely scale down input voltages for ADC (Analog-to-Digital Converter) measurement. The S3’s ADC will read the divided voltage and convert it into a digital value, which will be processed and displayed on the onboard TFT screen in real-time. This setup allows for accurate voltage monitoring in a compact, user-friendly format, ideal for educational and prototyping purposes.
 
 ## Ohmmeter (Part B)
 
