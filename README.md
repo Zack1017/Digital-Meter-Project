@@ -1,8 +1,14 @@
 # Digital-Meter-Project
 EE120 Final Project 
 
-# Part 0: Setting Up the Project
+# Part 0A: Setting Up the Project
 [Click Here](https://github.com/SDSMT-EE120/Digital-Meter-Project/tree/main/Part0-Setup) 
+
+How to setup and program the ESP32. 
+
+# Part 0B: Smart Weather Dashboard 
+[Click Here](https://github.com/SDSMT-EE120/Smart_Weather_Dashboard)
+The differnce between Ardunio and ESP32 and how to program the TFT screen. 
 
 # Part 1: Voltmeter [Comming Soon] 
 We use the voltage divider technique for the voltmeter. We need the Arduino’s ADC unit to read the voltage. 
