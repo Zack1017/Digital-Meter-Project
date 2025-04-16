@@ -19,6 +19,18 @@ The voltage divider is a circuit that puts a fraction of the voltage between two
 Now if we know the R1 and R2 resistance and the Vout values, we can easily calculate the voltage using the above formula.
 
 
+## Pre-Lab
+
+## TinkerCAD
+
+Using TinkerCad we will use the voltage divider technique for the voltmeter. We need the Arduino’s ADC unit to read the voltage. 
+
+To keep it simple we will use a 10k and 4.7k resistor(Note in simulation these behave theoeticaly) for the voltage division circuit.
+
+Connect the wires according to the following diagram.
+
+![Voltmeter Circuit](/assets/images/P1A_circuit.png)
+
 ### Circuit 
 Here we have used 10 and 4.7 kilo-ohm resistors for the voltage division circuit. Connect the wires according to the following diagram.
 
