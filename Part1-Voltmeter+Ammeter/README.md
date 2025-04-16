@@ -44,9 +44,9 @@ Test the following Voltages:
 
 - 10 V
 
--15 V
+- 15 V
 
--20 V
+- 20 V
 
 
 
@@ -76,3 +76,51 @@ This project involves creating a digital voltmeter using the Reverse Feather TFT
 The simplest method for measuring the current is using Ohm’s law. This law states the electrical current in a path is directly proportional to the voltage divided by the resistance in that path.
 
 Another technique for measuring the current is using the hall-effect principle. The passing of the electrical current creates a magnetic field and consequently the hall voltage. By measuring the hall voltage, you can calculate the magnetic field intensity and therefore the passing electrical current.
+
+## Helper
+
+### Voltmeter Code 
+
+Objective:
+This program reads an analog voltage through a voltage divider, calculates the actual voltage using known resistor values, and displays it on an LCD. It also prints raw analog readings to the serial monitor.
+
+Steps to Implement:
+Include Necessary Libraries:
+
+Use a library that allows communication with an I2C or standard LCD (16x2) like Adafruit's LiquidCrystal.
+
+Define Variables:
+
+Create a variable to store the calculated voltage.
+
+Declare the analog input pin connected to the voltage divider.
+
+Initialize the LCD object.
+
+Create a Voltage Calculation Function:
+
+Define the resistor values used in the voltage divider.
+
+Set the reference voltage for the ADC (typically 5.0V on many boards).
+
+Read the analog value multiple times (e.g., 20 samples) to average out noise.
+
+Convert the average analog reading into a voltage using the ADC resolution (typically 10-bit, 0–1023).
+
+Use the voltage divider formula to scale the voltage back up to the real input voltage.
+
+Set Up the System:
+
+Begin serial communication for debugging.
+
+Initialize the LCD display and turn on the backlight.
+
+Print a label (like "Voltage:") to the first row of the display.
+
+In the Loop Function:
+
+Call your voltage calculation function.
+
+Display the result with 1 decimal precision on the second row of the LCD.
+
+Optionally, continue printing raw ADC readings to the serial monitor for debugging.
