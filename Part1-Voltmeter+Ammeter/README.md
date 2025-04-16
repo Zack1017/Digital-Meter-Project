@@ -81,46 +81,41 @@ Another technique for measuring the current is using the hall-effect principle. 
 
 ### Voltmeter Code 
 
-Objective:
+#### Objective:
 This program reads an analog voltage through a voltage divider, calculates the actual voltage using known resistor values, and displays it on an LCD. It also prints raw analog readings to the serial monitor.
 
-Steps to Implement:
-Include Necessary Libraries:
+#### Steps to Implement:
 
-Use a library that allows communication with an I2C or standard LCD (16x2) like Adafruit's LiquidCrystal.
+1. Define Variables:
 
-Define Variables:
+- Create a variable to store the calculated voltage.
 
-Create a variable to store the calculated voltage.
+- Declare the analog input pin connected to the voltage divider.
 
-Declare the analog input pin connected to the voltage divider.
+2. Create a Voltage Calculation Function:
 
-Initialize the LCD object.
+- Define the resistor values used in the voltage divider.
 
-Create a Voltage Calculation Function:
+- Set the reference voltage for the ADC.
 
-Define the resistor values used in the voltage divider.
+- Read the analog value multiple times (e.g., 20 samples) to average out noise.
 
-Set the reference voltage for the ADC (typically 5.0V on many boards).
+- Convert the average analog reading into a voltage using the ADC resolution (See Below).
 
-Read the analog value multiple times (e.g., 20 samples) to average out noise.
+    voltage = (((adc_value+.5) * v_ref) / 1024);
 
-Convert the average analog reading into a voltage using the ADC resolution (typically 10-bit, 0–1023).
+Where adc_value is the average value of the pin and v_ref is the logic voltage. 
 
-Use the voltage divider formula to scale the voltage back up to the real input voltage.
+- Use the voltage divider formula to scale the voltage back up to the real input voltage.
 
-Set Up the System:
+#### Set Up the System:
 
-Begin serial communication for debugging.
+- Print a label (like "Voltage:") to the first row of the display.
 
-Initialize the LCD display and turn on the backlight.
+#### In the Loop Function:
 
-Print a label (like "Voltage:") to the first row of the display.
+- Call your voltage calculation function.(See Below)
 
-In the Loop Function:
+    lcd_.print( calculate_voltage(),1);
 
-Call your voltage calculation function.
-
-Display the result with 1 decimal precision on the second row of the LCD.
-
-Optionally, continue printing raw ADC readings to the serial monitor for debugging.
+- Display the result with 1 decimal precision on the second row of the LCD.
