@@ -29,11 +29,11 @@ Multimeters are generally categorized as analog and digital. Analog multimeters 
 
 - An analog multimeter:
 
-[Insert Image Here Analog]
+![Analog Meter](/assets/images/analog_meter.png)
 
 - A digital multimeter:
 
-[Insert Image Here Digital]
+![Digital Meter](/assets/images/digital_meter.png)
 
 
 ## What Parameters Does A Multimeter Measure?

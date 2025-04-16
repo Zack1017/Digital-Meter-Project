@@ -1,4 +1,4 @@
-# Part 1 - Voltmeter + Ammeter
+# Part 1 - Voltmeter + Ohmmeter
 
 ## Voltmeter (Part A)
 This project involves creating a digital voltmeter using the Reverse Feather TFT S3 microcontroller. The voltmeter will utilize a voltage divider circuit to safely scale down input voltages for ADC (Analog-to-Digital Converter) measurement. The S3’s ADC will read the divided voltage and convert it into a digital value, which will be processed and displayed on the onboard TFT screen in real-time. This setup allows for accurate voltage monitoring in a compact, user-friendly format, ideal for educational and prototyping purposes.
