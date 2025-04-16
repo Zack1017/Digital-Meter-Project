@@ -49,33 +49,15 @@ How to setup and program the ESP32.
 
 # Part 0-B: Smart Weather Dashboard 
 [Click Here](https://github.com/SDSMT-EE120/Smart_Weather_Dashboard)
+
 The differnce between Ardunio and ESP32 and how to program the TFT screen. 
 
 # Part 1-A: Voltmeter
 [Click Here](https://github.com/SDSMT-EE120/Digital-Meter-Project/tree/main/Part1-Voltmeter%2BAmmeter)
 
+Measuring Voltage with an Ardunio and ESP32. 
+
 # Part 1-B: Ammeter
 [Click Here](https://github.com/SDSMT-EE120/Digital-Meter-Project/tree/main/Part1-Voltmeter%2BAmmeter)
 
-## Measuring the Resistance
-
-The same voltage divider technique can be used to measure the resistance. The only difference compared to measuring the voltage is that here, we know the input voltage, the resistance of R1 and the output voltage. R2 is the unknown variable.
-
-[Image Here Voltage Divider Equation]
-
-## Measuring the Capacitance
-
-An effective method for measuring the capacitance is the capacitor charge and discharge rule.
-
-[Image Here CAP Divider]
-
-Below you can find the charging time for a capacitor.
-
-[Image Here CAP Time]
-
-It takes a specific amount of time for the capacitor to charge to 63.2%. This is calculated using the following formula:
-
-τ^(second)=R×C
-
-So if we know the resistance and the time it takes for the capacitor to charge to 63.2% of its capacitance, we can calculate the capacitance.
-
+Measing Current with a ESP32. 
