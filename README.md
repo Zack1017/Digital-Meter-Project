@@ -57,7 +57,7 @@ The differnce between Ardunio and ESP32 and how to program the TFT screen.
 
 Measuring Voltage with an Ardunio and ESP32. 
 
-# Part 1-B: Ammeter
-[Click Here](https://github.com/SDSMT-EE120/Digital-Meter-Project/tree/main/Part1-Voltmeter%2BAmmeter#ammeter-part-b)
+# Part 1-B: Ohmmeter
+[Click Here](https://github.com/SDSMT-EE120/Digital-Meter-Project/tree/main/Part1-Voltmeter%2BAmmeter#Ohmmeter-part-b)
 
-Measing Current with a ESP32. 
+Measuring Resistance with an Ardunio and ESP32. 
