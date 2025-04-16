@@ -12,7 +12,7 @@ Various methods exist for measuring the voltage, such as using the hall effect, 
 
 The voltage divider is a circuit that puts a fraction of the voltage between two resistors.
 
-[Image Here Voltage Divider]
+![Voltage Divider](/assets/images/voltage_div.png)
 
 [Image Here Voltage Divider Equation]
 
