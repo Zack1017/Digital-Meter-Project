@@ -88,34 +88,36 @@ This program reads an analog voltage through a voltage divider, calculates the a
 
 1. Define Variables:
 
-- Create a variable to store the calculated voltage.
+    - Create a variable to store the calculated voltage.
 
-- Declare the analog input pin connected to the voltage divider.
+    - Declare the analog input pin connected to the voltage divider.
 
 2. Create a Voltage Calculation Function:
 
-- Define the resistor values used in the voltage divider.
+    - Define the resistor values used in the voltage divider.
 
-- Set the reference voltage for the ADC.
+    - Set the reference voltage for the ADC.
 
-- Read the analog value multiple times (e.g., 20 samples) to average out noise.
+    - Read the analog value multiple times (e.g., 20 samples) to average out noise.
 
-- Convert the average analog reading into a voltage using the ADC resolution (See Below).
+    - Convert the average analog reading into a voltage using the ADC resolution (See Below).
 
-    voltage = (((adc_value+.5) * v_ref) / 1024);
 
-Where adc_value is the average value of the pin and v_ref is the logic voltage. 
+        voltage = (((adc_value+.5) * v_ref) / 1024);
 
-- Use the voltage divider formula to scale the voltage back up to the real input voltage.
+        Where adc_value is the average value of the pin and v_ref is the logic voltage. 
 
-#### Set Up the System:
+    - Use the voltage divider formula to scale the voltage back up to the real input voltage.
 
-- Print a label (like "Voltage:") to the first row of the display.
+3. Set Up the System:
 
-#### In the Loop Function:
+    - Print a label (like "Voltage:") to the first row of the display.
 
-- Call your voltage calculation function.(See Below)
+4. In the Loop Function:
 
-    lcd_.print( calculate_voltage(),1);
+    - Call your voltage calculation function.(See Below)
 
-- Display the result with 1 decimal precision on the second row of the LCD.
+
+        lcd_.print( calculate_voltage(),1);
+
+    - Display the result with 1 decimal precision on the second row of the LCD.
