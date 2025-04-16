@@ -14,7 +14,7 @@ The voltage divider is a circuit that puts a fraction of the voltage between two
 
 ![Voltage Divider](/assets/images/voltage_div.png)
 
-[Image Here Voltage Divider Equation]
+![Voltage Divider Equation](/assets/images/voltage_eq.png)
 
 Now if we know the R1 and R2 resistance and the Vout values, we can easily calculate the voltage using the above formula.
 
