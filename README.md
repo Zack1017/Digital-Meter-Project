@@ -1,36 +1,6 @@
 # Digital-Meter-Project
 EE120 Final Project 
 
-# Part 0A: Setting Up the Project
-[Click Here](https://github.com/SDSMT-EE120/Digital-Meter-Project/tree/main/Part0-Setup) 
-
-How to setup and program the ESP32. 
-
-# Part 0B: Smart Weather Dashboard 
-[Click Here](https://github.com/SDSMT-EE120/Smart_Weather_Dashboard)
-The differnce between Ardunio and ESP32 and how to program the TFT screen. 
-
-# Part 1: Voltmeter [Comming Soon] 
-We use the voltage divider technique for the voltmeter. We need the Arduino’s ADC unit to read the voltage. 
-
-### Circuit 
-Here we have used 10 and 4.7 kilo-ohm resistors for the voltage division circuit. Connect the wires according to the following diagram.
-
-[Image Here Board ]
-
-    Warning: Since the input voltage for ESP32’s ADC is 3.3 volts, selecting these resistors will allow the measuring of voltages up to 9.9 volts. Higher voltages could damage your board.
-
-By changing the resistors you can change the range of acceptable input voltages. The higher the input voltage, the lower the accuracy will be.
-
-    Note: The voltmeter should be in parallel to the section for measuring its voltage.
-
-### Equation 
-Here, using the formula for voltage division rule and reading voltage by the ADC unit, we calculate the input voltage.
-
-    Tip: To find the voltage using the ADC unit, we use the following proportion:
-
-[Image Equations ]
-
 # Project Overview and Helpers 
 
 ## Overview
@@ -72,24 +42,20 @@ Multimeters measure various parameters. However, the most important ones are vol
 
 For this project, we will make a multimeter that can measure voltage, current, resistance and capacitance.
 
+# Part 0-A: Setting Up the Project
+[Click Here](https://github.com/SDSMT-EE120/Digital-Meter-Project/tree/main/Part0-Setup) 
 
-## Measuring the Electrical Voltage
+How to setup and program the ESP32. 
 
-Various methods exist for measuring the voltage, such as using the hall effect, the simplest one is the voltage divider.
+# Part 0-B: Smart Weather Dashboard 
+[Click Here](https://github.com/SDSMT-EE120/Smart_Weather_Dashboard)
+The differnce between Ardunio and ESP32 and how to program the TFT screen. 
 
-The voltage divider is a circuit that puts a fraction of the voltage between two resistors.
+# Part 1-A: Voltmeter
+[Click Here](https://github.com/SDSMT-EE120/Digital-Meter-Project/tree/main/Part1-Voltmeter%2BAmmeter)
 
-[Image Here Voltage Divider]
-
-[Image Here Voltage Divider Equation]
-
-Now if we know the R1 and R2 resistance and the Vout values, we can easily calculate the voltage using the above formula.
-
-## Measuring the Electrical Current
-
-The simplest method for measuring the current is using Ohm’s law. This law states the electrical current in a path is directly proportional to the voltage divided by the resistance in that path.
-
-Another technique for measuring the current is using the hall-effect principle. The passing of the electrical current creates a magnetic field and consequently the hall voltage. By measuring the hall voltage, you can calculate the magnetic field intensity and therefore the passing electrical current.
+# Part 1-B: Ammeter
+[Click Here](https://github.com/SDSMT-EE120/Digital-Meter-Project/tree/main/Part1-Voltmeter%2BAmmeter)
 
 ## Measuring the Resistance
 
