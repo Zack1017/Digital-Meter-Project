@@ -34,7 +34,7 @@ Connect the wires according to the following diagram.
 
 ![Voltmeter Circuit](/assets/images/P1A_circuit.png)
 
-Connect a voltage supply to the input.  Write the code to print to the screen using this Helper.  
+Connect a voltage supply to the input.  Write the code to print to the screen using this [Helper](https://github.com/SDSMT-EE120/Digital-Meter-Project/tree/main/Part1-Voltmeter%2BAmmeter#voltmeter-code).  
 
 Test the following Voltages:
 
@@ -103,9 +103,9 @@ This program reads an analog voltage through a voltage divider, calculates the a
     - Convert the average analog reading into a voltage using the ADC resolution (See Below).
 
 
-        voltage = (((adc_value+.5) * v_ref) / 1024);
+    voltage = (((adc_value+.5) * v_ref) / 1024);
 
-        Where adc_value is the average value of the pin and v_ref is the logic voltage. 
+    Where adc_value is the average value of the pin and v_ref is the logic voltage. 
 
     - Use the voltage divider formula to scale the voltage back up to the real input voltage.
 
@@ -118,6 +118,6 @@ This program reads an analog voltage through a voltage divider, calculates the a
     - Call your voltage calculation function.(See Below)
 
 
-        lcd_.print( calculate_voltage(),1);
+    lcd_.print( calculate_voltage(),1);
 
     - Display the result with 1 decimal precision on the second row of the LCD.
