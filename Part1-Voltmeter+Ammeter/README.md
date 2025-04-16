@@ -38,9 +38,7 @@ Here, using the formula for voltage division rule and reading voltage by the ADC
 [Image Equations ]
 
 
-
-
-## Measuring the Electrical Current
+## Ammeter (Part B)
 
 The simplest method for measuring the current is using Ohm’s law. This law states the electrical current in a path is directly proportional to the voltage divided by the resistance in that path.
 

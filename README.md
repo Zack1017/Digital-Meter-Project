@@ -53,11 +53,11 @@ How to setup and program the ESP32.
 The differnce between Ardunio and ESP32 and how to program the TFT screen. 
 
 # Part 1-A: Voltmeter
-[Click Here](https://github.com/SDSMT-EE120/Digital-Meter-Project/tree/main/Part1-Voltmeter%2BAmmeter)
+[Click Here](https://github.com/SDSMT-EE120/Digital-Meter-Project/tree/main/Part1-Voltmeter%2BAmmeter#voltmeter-part-a)
 
 Measuring Voltage with an Ardunio and ESP32. 
 
 # Part 1-B: Ammeter
-[Click Here](https://github.com/SDSMT-EE120/Digital-Meter-Project/tree/main/Part1-Voltmeter%2BAmmeter)
+[Click Here](https://github.com/SDSMT-EE120/Digital-Meter-Project/tree/main/Part1-Voltmeter%2BAmmeter#ammeter-part-b)
 
 Measing Current with a ESP32. 
