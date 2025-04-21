@@ -99,7 +99,7 @@ This program reads an analog voltage through a voltage divider, calculates the a
 
 
     ```
-voltage = (((adc_value+.5) * v_ref) / 1024);
+    voltage = (((adc_value+.5) * v_ref) / 1024);
     ```
 
     Where adc_value is the average value of the pin and v_ref is the logic voltage. 
