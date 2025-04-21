@@ -58,7 +58,7 @@ Connect the wires according to the following diagram.
 
 Connect a resistor to the input.  Write the code to print to the screen using this [Helper](https://github.com/SDSMT-EE120/Digital-Meter-Project/tree/main/Part1-Voltmeter%2BAmmeter#voltmeter-code). 
 
-Test the following Voltages:
+Test the following resistors:
 
 - 1 Ohm
 
