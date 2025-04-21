@@ -98,17 +98,19 @@ This program reads an analog voltage through a voltage divider, calculates the a
     - Convert the average analog reading into a voltage using the ADC resolution (See Below).
 
 
-    voltage = (((adc_value+.5) * v_ref) / 1024);
+    ```
+voltage = (((adc_value+.5) * v_ref) / 1024);
+    ```
 
     Where adc_value is the average value of the pin and v_ref is the logic voltage. 
 
     - Use the voltage divider formula to scale the voltage back up to the real input voltage.
 
-3. Set Up the System:
+4. Set Up the System:
 
     - Print a label (like "Voltage:") to the first row of the display.
 
-4. In the Loop Function:
+5. In the Loop Function:
 
     - Call your voltage calculation function.(See Below)
 
