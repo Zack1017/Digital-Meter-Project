@@ -21,11 +21,9 @@ The same voltage divider technique can be used to measure the resistance. The on
 
 ![Voltage Divider Resistnace](/assets/images/voltage_div_2.png)
 
-## Pre-Lab
+## Building TinkerCAD Circuits
 
-### TinkerCAD
-
-#### Part A 
+### Voltmeter  
 Using TinkerCad we will use the voltage divider technique for the voltmeter. We need the Arduino’s ADC unit to read the voltage. There is already a template in the Class Folder labled "DMM 2.2 -Voltage and Resistance Measurements".
 
 To keep it simple we will use a 10k and 4.7k resistor(Note in simulation these behave idealy) for the voltage division circuit.
@@ -47,6 +45,8 @@ Test the following Voltages:
 - 15 V
 
 - 20 V
+
+### Ohmmeter
 
 Using TinkerCad we will use the voltage divider technique again but for the Ohmmeter. We need the Arduino’s ADC unit to read the voltage. There is already a template in the Class Folder labled "DMM 2.2 -Voltage and Resistance Measurements".
 
