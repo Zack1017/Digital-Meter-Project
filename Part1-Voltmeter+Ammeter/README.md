@@ -113,9 +113,10 @@ This program reads an analog voltage through a voltage divider, calculates the a
 5. In the Loop Function:
 
     - Call your voltage calculation function.(See Below)
-
-
+  
+    ```
     lcd_.print( calculate_voltage(),1);
+    ```
 
     - Display the result with 1 decimal precision on the second row of the LCD.
 
