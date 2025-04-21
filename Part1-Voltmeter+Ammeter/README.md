@@ -1,4 +1,4 @@
-# Part 1 - Voltmeter + Ohmmeter
+# Part 2.2A - Voltmeter + Ohmmeter in TinkerCAD
 
 ## Background 
 
@@ -119,6 +119,7 @@ This program reads an analog voltage through a voltage divider, calculates the a
 
     - Display the result with 1 decimal precision on the second row of the LCD.
 
+### Ohmmeter Code
 
 #### Objective:
 Create an automatic-range ohmmeter using an Arduino that determines an unknown resistor's value by switching between three different known reference resistors. The result is printed over the serial monitor.
