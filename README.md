@@ -57,12 +57,9 @@ The difference between Ardunio and ESP32 and how to program the TFT screen.
 
 Loading voltage dividers with transistor and op amp circuits; troubleshooting.
 
-# Stage 2.2A: Voltmeter
-[Click Here](https://github.com/SDSMT-EE120/Digital-Meter-Project/tree/main/Part1-Voltmeter%2BAmmeter#voltmeter-part-a)
+# Stage 2.2: Voltmeter and Ohmmeter
+[Click Here](https://github.com/SDSMT-EE120/Digital-Meter-Project/tree/main/Part2-Voltmeter%2BOhmmeter)
 
-Measuring Voltage with an Ardunio and ESP32. 
+Measuring voltage and resistance with Arduino and ESP32.
 
-# Stage 2.2B: Ohmmeter
-[Click Here](https://github.com/SDSMT-EE120/Digital-Meter-Project/tree/main/Part1-Voltmeter%2BAmmeter#Ohmmeter-part-b)
 
-Measuring Resistance with an Ardunio and ESP32. 
