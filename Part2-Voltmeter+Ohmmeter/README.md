@@ -70,6 +70,16 @@ Test the following resistors:
 
 - 10 k Ohm
 
+#### Check off 
+
+Demo to TA for check off. 
+
+1. Why does 20 V not work on the Voltmeter? 
+
+2. At 15 volts was tolerance of resistors should you use?
+
+3. Why is the resistance not accurate above a few Ohms?
+
 
 
 ## Helper
