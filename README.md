@@ -50,7 +50,12 @@ How to setup and program the ESP32.
 # Stage 1: Smart Weather Dashboard 
 [Click Here](https://github.com/SDSMT-EE120/Smart_Weather_Dashboard)
 
-The differnce between Ardunio and ESP32 and how to program the TFT screen. 
+The difference between Ardunio and ESP32 and how to program the TFT screen. 
+
+# Stage 2.1: Loading Effects
+[Click Here](https://d2l.sdbor.edu/d2l/le/content/2015129/Home)
+
+Loading voltage dividers with transistor and op amp circuits; troubleshooting.
 
 # Stage 2.2A: Voltmeter
 [Click Here](https://github.com/SDSMT-EE120/Digital-Meter-Project/tree/main/Part1-Voltmeter%2BAmmeter#voltmeter-part-a)
