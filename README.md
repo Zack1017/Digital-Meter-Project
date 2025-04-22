@@ -42,22 +42,24 @@ Multimeters measure various parameters. However, the most important ones are vol
 
 For this project, we will make a multimeter that can measure voltage, current, resistance and capacitance.
 
-# Part 0-A: Setting Up the Project
+# Stage 0: Setting Up the Project
 [Click Here](https://github.com/SDSMT-EE120/Digital-Meter-Project/tree/main/Part0-Setup) 
 
 How to setup and program the ESP32. 
 
-# Part 0-B: Smart Weather Dashboard 
+# Stage 1: Smart Weather Dashboard 
 [Click Here](https://github.com/SDSMT-EE120/Smart_Weather_Dashboard)
 
-The differnce between Ardunio and ESP32 and how to program the TFT screen. 
+The difference between Ardunio and ESP32 and how to program the TFT screen. 
 
-# Part 1-A: Voltmeter
-[Click Here](https://github.com/SDSMT-EE120/Digital-Meter-Project/tree/main/Part1-Voltmeter%2BAmmeter#voltmeter-part-a)
+# Stage 2.1: Loading Effects
+[Click Here](https://d2l.sdbor.edu/d2l/le/content/2015129/Home)
 
-Measuring Voltage with an Ardunio and ESP32. 
+Loading voltage dividers with transistor and op amp circuits; troubleshooting.
 
-# Part 1-B: Ohmmeter
-[Click Here](https://github.com/SDSMT-EE120/Digital-Meter-Project/tree/main/Part1-Voltmeter%2BAmmeter#Ohmmeter-part-b)
+# Stage 2.2: Voltmeter and Ohmmeter
+[Click Here](https://github.com/SDSMT-EE120/Digital-Meter-Project/tree/main/Part2-Voltmeter%2BOhmmeter)
 
-Measuring Resistance with an Ardunio and ESP32. 
+Measuring voltage and resistance with Arduino and ESP32.
+
+
