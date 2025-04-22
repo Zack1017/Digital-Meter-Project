@@ -1,16 +1,16 @@
 float calculate_resistor()
 {
-    float v_ref = 4.94;
+    float v_ref = ; //Update this to the correct value
     float r1 = 0.00;
-    float r_ref1 = 1000.00;
+    float r_ref1 = ; //Update this to the correct value
     float adc_value1 = 0.00;
     float voltage1 = 0.00;
     float r2 = 0.00;
-    float r_ref2 = 10000.00;
+    float r_ref2 = ; //Update this to the correct value
     float adc_value2 = 0.00;
     float voltage2 = 0.00;
     float r3 = 0.00;
-    float r_ref3 = 100000.00;
+    float r_ref3 = ; //Update this to the correct value
     float adc_value3 = 0.00;
     float voltage3 = 0.00;
 
@@ -19,6 +19,8 @@ float calculate_resistor()
     pinMode(R2, INPUT);
     pinMode(R3, INPUT);
     digitalWrite(R1, HIGH);
+
+
     for (int i = 0; i < 20; i++)
     {
         adc_value1 = adc_value1 + analogRead(OhmMeter);
