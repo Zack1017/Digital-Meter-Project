@@ -56,7 +56,7 @@ Connect the wires according to the following diagram.
 
 ![Ohmmeter Circuit](/assets/images/P1B_circuit.png)
 
-Connect a resistor to the input.  Write the code to print to the screen using this [Helper](https://github.com/SDSMT-EE120/Digital-Meter-Project/tree/main/Part1-Voltmeter%2BAmmeter#voltmeter-code). 
+Connect a resistor to the input.  Write the code to print to the screen using this [Helper](https://github.com/SDSMT-EE120/Digital-Meter-Project/blob/main/Part2-Voltmeter+Ohmmeter/README.md#ohmmeter-code). 
 
 Test the following resistors:
 
