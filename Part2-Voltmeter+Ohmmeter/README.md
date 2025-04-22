@@ -32,7 +32,7 @@ Connect the wires according to the following diagram.
 
 ![Voltmeter Circuit](/assets/images/P1A_circuit.png)
 
-Connect a voltage supply to the input.  Write the code to print to the screen using this [Helper](https://github.com/SDSMT-EE120/Digital-Meter-Project/tree/main/Part1-Voltmeter%2BAmmeter#voltmeter-code).  
+Connect a voltage supply to the input.  Write the code to print to the screen using this [Helper](https://github.com/SDSMT-EE120/Digital-Meter-Project/blob/main/Part2-Voltmeter%2BOhmmeter/README.md#voltmeter-code).  
 
 Test the following Voltages:
 
