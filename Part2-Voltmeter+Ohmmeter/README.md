@@ -76,17 +76,19 @@ Demo to TA for check off.
 
 1. Why does 20 V not work on the Voltmeter? 
 
-2. At 15 volts was tolerance of resistors should you use?
+2. At 15 volts what tolerance of resistors should you use?
 
 3. Why is the resistance not accurate above a few Ohms?
 
-## Building ESP32 Circuits
+---
 
-### Voltmeter
+# Building ESP32 Circuits
+
+## Voltmeter
 
 Contining with the code you wrote for the ardunio and the last labs display code.  Create a voltmeter that can measure for 0-9.9 Volts using the diagram below.  You will have to use a 10k Potentiometer to vary the voltage. 
 
-#### Requirements:
+### Requirements:
 
 1. Display the word "Voltage: "
 
@@ -98,25 +100,25 @@ Contining with the code you wrote for the ardunio and the last labs display code
 
 5. Demo to TA or Professor 
 
-#### Schematic: 
+### Schematic: 
 ![Voltmeter1](/assets/images/P2_2_Circuit.png)
 
 #### NOTES: 
-    Due to being 3.3 V you can't go over 9.9V this is why we are using the 9V batteries. 
+    !!! Due to being 3.3 V you can't go over 9.9V this is why we are using the 9V batteries. !!!
 
-### Ohmmeter
+## Ohmmeter
 
 Contining with the code you wrote for the ardunio and the last labs display code.  Create a voltmeter that can measure 3 differnt scales of resistance using the diagram below.  You will have to use a 10k Potentiometer to vary the voltage. 
 
-#### Requirements:
+### Requirements:
 
 1. Display the word "Resistance: "
 
 2. Display the resistnace under it. 
 
-3. Measure the resistor value and correct for it in software 
+3. Measure the resistor value and correct for the actual value (not nominal value) in software. 
 
-4. Grab a set of resistors from the from of the class and test them.  Check the values of he color codes to your meter. 
+4. Grab a set of resistors from the front of the class and test them.  Compare the values of the color codes to your meter. 
 
 5. Demo to TA or Professor 
 
