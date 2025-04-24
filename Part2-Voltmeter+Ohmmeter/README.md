@@ -80,7 +80,46 @@ Demo to TA for check off.
 
 3. Why is the resistance not accurate above a few Ohms?
 
+## Building ESP32 Circuits
 
+### Voltmeter
+
+Contining with the code you wrote for the ardunio and the last labs display code.  Create a voltmeter that can measure for 0-9.9 Volts using the diagram below.  You will have to use a 10k Potentiometer to vary the voltage. 
+
+#### Requirements:
+
+1. Display the word "Voltage: "
+
+2. Display the voltage under it. 
+
+3. Measure the resistor value and correct for it in software 
+
+4. Using the Potentiometer show 0 up to 9.~ voltage. 
+
+5. Demo to TA or Professor 
+
+#### Schematic: 
+
+![Voltmeter Circuit](/assets/images/P2.2 Circuit.png)
+
+#### NOTES: 
+    Due to being 3.3 V you can't go over 9.9V this is why we are using the 9V batteries. 
+
+### Ohmmeter
+
+Contining with the code you wrote for the ardunio and the last labs display code.  Create a voltmeter that can measure 3 differnt scales of resistance using the diagram below.  You will have to use a 10k Potentiometer to vary the voltage. 
+
+#### Requirements:
+
+1. Display the word "Resistance: "
+
+2. Display the resistnace under it. 
+
+3. Measure the resistor value and correct for it in software 
+
+4. Grab a set of resistors from the from of the class and test them.  Check the values of he color codes to your meter. 
+
+5. Demo to TA or Professor 
 
 ## Helper
 
