@@ -99,8 +99,7 @@ Contining with the code you wrote for the ardunio and the last labs display code
 5. Demo to TA or Professor 
 
 #### Schematic: 
-
-![Voltmeter1](/assets/images/P2.2 Circuit.png)
+![Voltmeter1](/assets/images/P2_2_Circuit.png)
 
 #### NOTES: 
     Due to being 3.3 V you can't go over 9.9V this is why we are using the 9V batteries. 
