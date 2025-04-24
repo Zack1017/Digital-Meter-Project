@@ -122,6 +122,9 @@ Contining with the code you wrote for the ardunio and the last labs display code
 
 5. Demo to TA or Professor 
 
+### Schematic: 
+![Ohmeter1](/assets/images/P2_2.1_Circuits.png)
+
 ## Helper
 
 ### Voltmeter Code 
