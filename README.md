@@ -62,7 +62,6 @@ Loading voltage dividers with transistor and op amp circuits; troubleshooting.
 
 Measuring voltage and resistance with Arduino and ESP32.
 
-# Stage 3 Ammeter 
-[Click Here](https://github.com/SDSMT-EE120/Digital-Meter-Project/tree/main/Part3-Ammeter)
+# Extra Credit Helper 
+[Click Here](https://download.kamami.pl/p1184865-esp32-s3-reverse-tft-feather.pdf)
 
-Measuring current with ESP32. 
