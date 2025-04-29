@@ -45,19 +45,23 @@ This sensor uses the hall effect to measure the current. Then it outputs a volta
 
 ### 6. Convert ADC Value to Voltage
 - Use the formula:
+
 voltage = (average_ADC_value × v_ref) / 1024
 
 ### 7. Calculate the Pure Voltage
 - Subtract the offset voltage:
+
 pure_voltage = voltage - offset_voltage
 
 ### 8. Convert Pure Voltage to Millivolts
 - Multiply the pure voltage by `1000` to convert it from volts to millivolts:
+
 pure_voltage_mV = pure_voltage × 1000
 
 ### 9. Calculate the Current
 - Divide the millivolt value by the sensor's sensitivity:
-$current (A) = pure_voltage_mV / sensitivity$
+
+current (A) = pure_voltage_mV / sensitivity
 
 ### 10. Return the Current
 - Return the calculated current value from the function so it can be used elsewhere.
