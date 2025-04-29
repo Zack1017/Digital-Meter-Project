@@ -12,11 +12,11 @@ Another technique for measuring the current is using the hall-effect principle. 
 
 We use the AC712 sensor for making the ammeter. It is available as a module in various ranges. In this project, we are using the 5A range of this module.
 
-[ImageAC71](/assets/images/multimeter-ac712.jpg)
+![ImageAC71](/assets/images/multimeter-ac712.jpg)
 
 This sensor uses the hall effect to measure the current. Then it outputs a voltage proportional to the measured current, namely 185 millivolts for each amp of current.
 
-[ImagePin](/assets/images/pinout.jpg)
+![ImagePin](/assets/images/pinout.jpg)
 
 ## Circuit
 
