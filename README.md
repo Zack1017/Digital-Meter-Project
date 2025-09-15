@@ -1,3 +1,5 @@
+This project was forked from the Class Github.  The class known as EE120 at SDSMT had Zackery Holloway and Ethan Thomson as TA for the 2025 Spring Semseter.  Thye were tasked with creating a microcontroller project for students.  This code project is the result of that task. 
+
 # Digital-Meter-Project
 EE120 Final Project 
 
